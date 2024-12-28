@@ -1,13 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #101010;
+    color: #00B140;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin: 0;
-    padding: 0;
-    height: 100%;
 }
 
-.content {
-    padding: 20px;
-    min-height: 100%;
+.excerpt {
+    padding: 0;
+    border-radius: 0;
+    font-size: 1.2em;
+    box-shadow: none;
+}
+
+.excerpt p {
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .bottom-text {
@@ -21,7 +37,7 @@ body {
 }
 
 .bottom-text a {
-    color: #ffffff;
+    color: ##161616;
     text-decoration: none;
 }
 
