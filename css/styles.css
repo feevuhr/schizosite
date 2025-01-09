@@ -1,6 +1,6 @@
 /* General body styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Courier New', Courier, monospace; /* Changed to Courier New */
     background-color: #101010;
     color: #00B140;
     text-align: center;
@@ -44,10 +44,10 @@ a {
 }
 
 .bottom-text a {
-    color: #161616; /* Corrected color code */
+    color: #161616;
     text-decoration: none;
 }
 
 .bottom-text a:hover {
-    text-decoration: underline; /* Added underline on hover for emphasis */
+    text-decoration: underline;
 }
